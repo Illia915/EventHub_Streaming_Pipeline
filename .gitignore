@@ -1,0 +1,28 @@
+.databricks/
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.log
+bin/
+
+# Virtual environments
+.venv
+.env
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform/.terraform/
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
